@@ -32,5 +32,6 @@ Create branch: `git checkout -b <branch>`
 Reset to a certain commit: `git reset --hard <commit_sha1>` (resets local tree) `git reset --soft <commit_sha1>` (does not modify the local tree)
 
 View the log: `git log` (or view on Github)
+View the difference before committing: `git diff` You can also view differences between branches on Github
 
 (See Also: http://gitref.org/)
