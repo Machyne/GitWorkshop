@@ -27,5 +27,10 @@ Now time to send / receive files from a remote repository: `git push <host> <bra
 ##Using Branches
 Add a remote host: `git remote add <name> <full_host_path>`
 Change branch: `git checkout <branch>`
+Create branch: `git checkout -b <branch>`
 
-(See Also: [[http://gitref.org/]])
+Reset to a certain commit: `git reset --hard <commit_sha1>` (resets local tree) `git reset --soft <commit_sha1>` (does not modify the local tree)
+
+View the log: `git log` (or view on Github)
+
+(See Also: http://gitref.org/)
