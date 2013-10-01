@@ -1,0 +1,6 @@
+# Ignore all tempfiles
+/tmp
+
+# Ignore other unwanted files
+*~
+._*
